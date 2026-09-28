@@ -1,0 +1,79 @@
+{
+  "id": "albero",
+  "family": "natura",
+  "pattern": "genere",
+  "text": "Un albero",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Quercia"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Pino"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Ulivo",
+      "aliases": [
+        "olivo"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Cipresso"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Abete"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Faggio"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Castagno"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Pioppo"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Betulla"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Acero"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Leccio"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Larice"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Frassino"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Tiglio"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Carpino"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Sorbo"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Bagolaro"
+    }
+  ]
+}

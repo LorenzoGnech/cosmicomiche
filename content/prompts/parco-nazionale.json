@@ -1,0 +1,124 @@
+{
+  "id": "parco-nazionale",
+  "family": "natura",
+  "pattern": "luogo",
+  "text": "Un parco nazionale italiano",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Gran Paradiso",
+      "aliases": [
+        "parco nazionale del gran paradiso"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Cinque Terre",
+      "aliases": [
+        "parco nazionale delle cinque terre"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Stelvio",
+      "aliases": [
+        "parco nazionale dello stelvio"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Vesuvio",
+      "aliases": [
+        "parco nazionale del vesuvio"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Gran Sasso",
+      "aliases": [
+        "gran sasso e monti della laga"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Pollino"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Gargano"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Majella",
+      "aliases": [
+        "maiella"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Circeo"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Dolomiti Bellunesi",
+      "aliases": [
+        "dolomiti bellunesi"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Abruzzo, Lazio e Molise",
+      "aliases": [
+        "abruzzo",
+        "parco dabruzzo"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Monti Sibillini",
+      "aliases": [
+        "sibillini"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Aspromonte"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Arcipelago Toscano"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Asinara"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Val Grande"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Arcipelago di La Maddalena",
+      "aliases": [
+        "maddalena",
+        "la maddalena"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Sila"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Pantelleria"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Appennino Lucano",
+      "aliases": [
+        "appennino lucano val dagri",
+        "val dagri lagonegrese"
+      ]
+    }
+  ]
+}

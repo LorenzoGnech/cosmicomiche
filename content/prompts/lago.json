@@ -1,0 +1,116 @@
+{
+  "id": "lago",
+  "family": "geografia",
+  "pattern": "luogo",
+  "text": "Un lago italiano",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Lago di Garda",
+      "aliases": [
+        "garda"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Lago di Como",
+      "aliases": [
+        "como"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Lago Maggiore",
+      "aliases": [
+        "maggiore"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Lago Trasimeno",
+      "aliases": [
+        "trasimeno"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Lago di Bolsena",
+      "aliases": [
+        "bolsena"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lago d'Iseo",
+      "aliases": [
+        "iseo",
+        "lago di iseo"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lago di Bracciano",
+      "aliases": [
+        "bracciano"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lago d'Orta",
+      "aliases": [
+        "orta",
+        "lago di orta"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lago di Vico",
+      "aliases": [
+        "vico"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Lago Albano",
+      "aliases": [
+        "albano",
+        "lago di albano"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Lago di Varese",
+      "aliases": [
+        "varese"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Lago di Mergozzo",
+      "aliases": [
+        "mergozzo"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Lago di Scanno",
+      "aliases": [
+        "scanno"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Lago di Ledro",
+      "aliases": [
+        "ledro"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Lago di Pergusa",
+      "aliases": [
+        "pergusa"
+      ]
+    }
+  ]
+}

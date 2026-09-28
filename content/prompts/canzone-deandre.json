@@ -1,0 +1,101 @@
+{
+  "id": "canzone-deandre",
+  "family": "musica",
+  "pattern": "opere-di",
+  "text": "Una canzone di Fabrizio De André",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Bocca di rosa"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "La guerra di Piero",
+      "aliases": [
+        "guerra di Piero"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Il pescatore",
+      "aliases": [
+        "pescatore"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "La canzone di Marinella",
+      "aliases": [
+        "canzone di Marinella",
+        "marinella"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Via del Campo"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Amico fragile"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Andrea"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Don Raffaè",
+      "aliases": [
+        "don raffae"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Creuza de mä",
+      "aliases": [
+        "creuza de ma"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Un giudice",
+      "aliases": [
+        "giudice"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Il testamento di Tito",
+      "aliases": [
+        "testamento di Tito"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "La ballata dell'eroe",
+      "aliases": [
+        "ballata delleroe",
+        "ballata dell eroe"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "La città vecchia",
+      "aliases": [
+        "citta vecchia"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "La ballata del Michè",
+      "aliases": [
+        "ballata del miche",
+        "miche"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Valzer per un amore"
+    }
+  ]
+}

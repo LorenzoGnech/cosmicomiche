@@ -1,0 +1,74 @@
+{
+  "id": "marca-auto",
+  "family": "oggetti",
+  "pattern": "marca",
+  "text": "Una marca di automobili italiana",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Fiat"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Ferrari"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Lamborghini"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Alfa Romeo",
+      "aliases": [
+        "alfa"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Maserati"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lancia"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Pagani"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Abarth"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "De Tomaso"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Autobianchi"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Innocenti"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Cisitalia"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Iso Rivolta",
+      "aliases": [
+        "iso"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Siata"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Bizzarrini"
+    }
+  ]
+}

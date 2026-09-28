@@ -1,0 +1,112 @@
+{
+  "id": "canzone-battisti",
+  "family": "musica",
+  "pattern": "opere-di",
+  "text": "Una canzone di Lucio Battisti",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Emozioni"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Il mio canto libero",
+      "aliases": [
+        "mio canto libero"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "La canzone del sole",
+      "aliases": [
+        "canzone del sole"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Acqua azzurra, acqua chiara",
+      "aliases": [
+        "acqua azzurra acqua chiara"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Pensieri e parole"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "E penso a te"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Ancora tu"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "La collina dei ciliegi",
+      "aliases": [
+        "collina dei ciliegi"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Con il nastro rosa",
+      "aliases": [
+        "nastro rosa"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Sì, viaggiare",
+      "aliases": [
+        "si viaggiare"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Un'avventura",
+      "aliases": [
+        "un avventura"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "I giardini di marzo",
+      "aliases": [
+        "giardini di marzo"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Dieci ragazze"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Fiori rosa, fiori di pesco",
+      "aliases": [
+        "fiori rosa fiori di pesco"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Io vorrei... non vorrei... ma se vuoi",
+      "aliases": [
+        "io vorrei non vorrei ma se vuoi"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Amarsi un po'",
+      "aliases": [
+        "amarsi un po"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "La luce dell'est",
+      "aliases": [
+        "luce dell'est"
+      ]
+    }
+  ]
+}

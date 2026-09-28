@@ -1,0 +1,21 @@
+---
+import "@fontsource/silkscreen/latin-400.css";
+import "../styles/global.css";
+---
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1026" />
+    <title>Cosmicomiche</title>
+  </head>
+  <body>
+    <canvas id="scene" width="160" height="144" aria-hidden="true"></canvas>
+    <main id="app"></main>
+    <noscript><p>Serve JavaScript per partire.</p></noscript>
+    <script>
+      import "../scripts/game.ts";
+    </script>
+  </body>
+</html>

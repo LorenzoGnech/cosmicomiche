@@ -1,0 +1,99 @@
+{
+  "id": "modo-dire",
+  "family": "lingua",
+  "pattern": "elenco",
+  "text": "Un modo di dire italiano",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "In bocca al lupo"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Non avere peli sulla lingua",
+      "aliases": [
+        "peli sulla lingua"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Costare un occhio della testa",
+      "aliases": [
+        "occhio della testa"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Acqua in bocca"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Cadere dalle nuvole"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Essere al verde",
+      "aliases": [
+        "al verde"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Prendere un granchio"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Avere le mani in pasta",
+      "aliases": [
+        "mani in pasta"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Menare il can per l'aia",
+      "aliases": [
+        "can per laia",
+        "menare il can per laia"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Fare orecchie da mercante",
+      "aliases": [
+        "orecchie da mercante"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Scambiare lucciole per lanterne",
+      "aliases": [
+        "lucciole per lanterne"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Attaccare un bottone"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Salvare capra e cavoli",
+      "aliases": [
+        "capra e cavoli"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Essere di manica larga",
+      "aliases": [
+        "manica larga"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Filare all'inglese",
+      "aliases": [
+        "filare linglese"
+      ]
+    }
+  ]
+}

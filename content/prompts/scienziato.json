@@ -1,0 +1,125 @@
+{
+  "id": "scienziato",
+  "family": "scienza",
+  "pattern": "persona",
+  "text": "Uno scienziato italiano",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Galileo Galilei",
+      "aliases": [
+        "galileo"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Archimede"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Enrico Fermi",
+      "aliases": [
+        "fermi"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Guglielmo Marconi",
+      "aliases": [
+        "marconi"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Alessandro Volta",
+      "aliases": [
+        "volta"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Leonardo da Vinci",
+      "aliases": [
+        "leonardo"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Luigi Galvani",
+      "aliases": [
+        "galvani"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Evangelista Torricelli",
+      "aliases": [
+        "torricelli"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Margherita Hack",
+      "aliases": [
+        "hack"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Rita Levi-Montalcini",
+      "aliases": [
+        "levi montalcini",
+        "rita levi montalcini"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Amedeo Avogadro",
+      "aliases": [
+        "avogadro"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Laura Bassi",
+      "aliases": [
+        "bassi"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Giovanni Schiaparelli",
+      "aliases": [
+        "schiaparelli"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Antonio Meucci",
+      "aliases": [
+        "meucci"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Stanislao Cannizzaro",
+      "aliases": [
+        "cannizzaro"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Giuseppe Peano",
+      "aliases": [
+        "peano"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Macedonio Melloni",
+      "aliases": [
+        "melloni"
+      ]
+    }
+  ]
+}

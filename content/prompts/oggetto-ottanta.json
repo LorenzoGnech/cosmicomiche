@@ -1,0 +1,90 @@
+{
+  "id": "oggetto-ottanta",
+  "family": "oggetti",
+  "pattern": "tempo",
+  "text": "Un oggetto di uso comune negli anni Ottanta",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Walkman"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Floppy disk",
+      "aliases": [
+        "floppy"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Videoregistratore",
+      "aliases": [
+        "vhs"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Cabina telefonica"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Polaroid"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Musicassetta"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Gettone telefonico",
+      "aliases": [
+        "gettone"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Commodore 64",
+      "aliases": [
+        "commodore"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Fax"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Mangianastri"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Diapositiva",
+      "aliases": [
+        "diapositive"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Cubo di Rubik",
+      "aliases": [
+        "rubik"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Game Boy"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Super 8"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Telefono a rotella"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Olivetti M10"
+    }
+  ]
+}

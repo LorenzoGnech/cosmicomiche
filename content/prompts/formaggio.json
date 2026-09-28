@@ -1,0 +1,94 @@
+{
+  "id": "formaggio",
+  "family": "cibo",
+  "pattern": "elenco",
+  "text": "Un formaggio italiano",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Parmigiano Reggiano",
+      "aliases": [
+        "parmigiano"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Mozzarella",
+      "aliases": [
+        "mozzarella di bufala"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Gorgonzola"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Pecorino",
+      "aliases": [
+        "pecorino romano"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Grana Padano",
+      "aliases": [
+        "grana"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Provolone"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Taleggio"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Asiago"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Fontina"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Burrata"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Castelmagno"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Caciocavallo"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Stracchino"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Montasio"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Puzzone di Moena",
+      "aliases": [
+        "puzzone"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Bagoss",
+      "aliases": [
+        "bagòss"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Strachitunt"
+    }
+  ]
+}

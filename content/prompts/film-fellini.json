@@ -1,0 +1,130 @@
+{
+  "id": "film-fellini",
+  "family": "cinema",
+  "pattern": "opere-di",
+  "text": "Un film di Federico Fellini",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "La dolce vita",
+      "aliases": [
+        "dolce vita"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "8½",
+      "aliases": [
+        "8 e mezzo",
+        "otto e mezzo",
+        "8 1/2"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Amarcord"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "La strada"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "I vitelloni",
+      "aliases": [
+        "vitelloni"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Le notti di Cabiria",
+      "aliases": [
+        "notti di Cabiria"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Roma"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Fellini Satyricon",
+      "aliases": [
+        "satyricon"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Ginger e Fred"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "La città delle donne",
+      "aliases": [
+        "citta delle donne"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Il bidone",
+      "aliases": [
+        "bidone"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Giulietta degli spiriti"
+    },
+    {
+      "tier": "luna",
+      "canonical": "E la nave va"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Il Casanova di Federico Fellini",
+      "aliases": [
+        "casanova di fellini",
+        "il casanova"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Lo sceicco bianco",
+      "aliases": [
+        "sceicco bianco"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Prova d'orchestra",
+      "aliases": [
+        "prova dorchestra"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Intervista"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "I clowns",
+      "aliases": [
+        "clowns"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Luci del varietà",
+      "aliases": [
+        "luci del varieta"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "La voce della luna",
+      "aliases": [
+        "voce della luna"
+      ]
+    }
+  ]
+}

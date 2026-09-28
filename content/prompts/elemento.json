@@ -1,0 +1,112 @@
+{
+  "id": "elemento",
+  "family": "scienza",
+  "pattern": "elenco",
+  "text": "Un elemento chimico",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Ossigeno"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Idrogeno"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Oro"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Ferro"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Carbonio"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Azoto"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Elio"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Argento"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Rame"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Sodio"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Calcio"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Cloro"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Zolfo"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Alluminio"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Mercurio"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Titanio"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Piombo"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Uranio"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Litio"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Fluoro"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Zinco"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Tungsteno"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Platino"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Cobalto"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Palladio"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Darmstadtio"
+    }
+  ]
+}

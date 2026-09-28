@@ -1,0 +1,44 @@
+{
+  "days": [
+    {
+      "date": "2026-09-26",
+      "promptIds": [
+        "azzurri-2006",
+        "capoluogo",
+        "albero",
+        "modo-dire",
+        "canzone-battisti"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "promptIds": [
+        "evento-novecento",
+        "film-fellini",
+        "formaggio",
+        "marca-auto",
+        "scienziato"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "promptIds": [
+        "lago",
+        "canzone-deandre",
+        "marca-sport",
+        "elemento",
+        "oggetto-ottanta"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "promptIds": [
+        "risorgimento",
+        "parola-z",
+        "film-sordi",
+        "parco-nazionale",
+        "formato-pasta"
+      ]
+    }
+  ]
+}

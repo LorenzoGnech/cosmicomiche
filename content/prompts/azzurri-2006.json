@@ -1,0 +1,169 @@
+{
+  "id": "azzurri-2006",
+  "family": "sport",
+  "pattern": "persona",
+  "text": "Un calciatore italiano campione del mondo nel 2006",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Gianluigi Buffon",
+      "aliases": [
+        "buffon"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Fabio Cannavaro",
+      "aliases": [
+        "cannavaro"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Francesco Totti",
+      "aliases": [
+        "totti"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Alessandro Del Piero",
+      "aliases": [
+        "del piero"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Andrea Pirlo",
+      "aliases": [
+        "pirlo"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Gennaro Gattuso",
+      "aliases": [
+        "gattuso"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Alessandro Nesta",
+      "aliases": [
+        "nesta"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Luca Toni",
+      "aliases": [
+        "toni"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Marco Materazzi",
+      "aliases": [
+        "materazzi"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Filippo Inzaghi",
+      "aliases": [
+        "inzaghi"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Fabio Grosso",
+      "aliases": [
+        "grosso"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Alberto Gilardino",
+      "aliases": [
+        "gilardino"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Daniele De Rossi",
+      "aliases": [
+        "de rossi"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Gianluca Zambrotta",
+      "aliases": [
+        "zambrotta"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Mauro Camoranesi",
+      "aliases": [
+        "camoranesi"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Andrea Barzagli",
+      "aliases": [
+        "barzagli"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Simone Perrotta",
+      "aliases": [
+        "perrotta"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Vincenzo Iaquinta",
+      "aliases": [
+        "iaquinta"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Massimo Oddo",
+      "aliases": [
+        "oddo"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Cristian Zaccardo",
+      "aliases": [
+        "zaccardo"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Angelo Peruzzi",
+      "aliases": [
+        "peruzzi"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Simone Barone",
+      "aliases": [
+        "barone"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Marco Amelia",
+      "aliases": [
+        "amelia"
+      ]
+    }
+  ]
+}

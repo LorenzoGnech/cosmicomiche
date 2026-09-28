@@ -1,0 +1,85 @@
+{
+  "id": "marca-sport",
+  "family": "sport",
+  "pattern": "marca",
+  "text": "Una marca di abbigliamento sportivo",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Nike"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Adidas"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Puma"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Fila"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Champion"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Diadora"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Kappa"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lotto"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Umbro"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "New Balance"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Ellesse"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Macron"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Legea"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Sergio Tacchini",
+      "aliases": [
+        "tacchini"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Erreà",
+      "aliases": [
+        "errea"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Givova"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Zeus Sport",
+      "aliases": [
+        "zeus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "evento-novecento",
+  "family": "storia",
+  "pattern": "tempo",
+  "text": "Un evento della storia italiana del Novecento",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Marcia su Roma"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Miracolo economico"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Referendum del 1946",
+      "aliases": [
+        "referendum istituzionale"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Strage di Bologna"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Leggi razziali"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Rapimento di Aldo Moro",
+      "aliases": [
+        "rapimento Moro",
+        "caso Moro"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Liberazione",
+      "aliases": [
+        "25 aprile"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Strage di piazza Fontana",
+      "aliases": [
+        "piazza Fontana"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Strage di Capaci",
+      "aliases": [
+        "capaci"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Delitto Matteotti"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Mani pulite"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Strage di Ustica",
+      "aliases": [
+        "ustica"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Terremoto dell'Irpinia",
+      "aliases": [
+        "irpinia",
+        "terremoto irpinia"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Eccidio delle Fosse Ardeatine",
+      "aliases": [
+        "fosse ardeatine"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Eccidio di Marzabotto",
+      "aliases": [
+        "marzabotto"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Golpe Borghese"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Beffa di Buccari",
+      "aliases": [
+        "buccari"
+      ]
+    }
+  ]
+}

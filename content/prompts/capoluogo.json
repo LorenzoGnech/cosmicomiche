@@ -1,0 +1,112 @@
+{
+  "id": "capoluogo",
+  "family": "geografia",
+  "pattern": "luogo",
+  "text": "Un capoluogo di provincia italiano",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Roma"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Milano"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Napoli"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Torino"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Firenze"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Bologna"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Venezia"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Genova"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Palermo"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Bari"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Catania"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Trieste"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Perugia"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Ancona"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Cagliari"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Verona"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Trento"
+    },
+    {
+      "tier": "luna",
+      "canonical": "L'Aquila",
+      "aliases": [
+        "aquila",
+        "laquila"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Aosta"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Campobasso"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Potenza"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Isernia"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Catanzaro"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Bolzano"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Enna"
+    }
+  ]
+}

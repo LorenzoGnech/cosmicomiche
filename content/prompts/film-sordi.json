@@ -1,0 +1,117 @@
+{
+  "id": "film-sordi",
+  "family": "cinema",
+  "pattern": "opere-di",
+  "text": "Un film con Alberto Sordi",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Un americano a Roma",
+      "aliases": [
+        "americano a Roma"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Il marchese del Grillo",
+      "aliases": [
+        "marchese del Grillo"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Un giorno in pretura",
+      "aliases": [
+        "giorno in pretura"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Il medico della mutua",
+      "aliases": [
+        "medico della mutua"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "I vitelloni",
+      "aliases": [
+        "vitelloni"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Il vedovo",
+      "aliases": [
+        "vedovo"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lo scopone scientifico",
+      "aliases": [
+        "scopone scientifico"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Polvere di stelle"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Il vigile",
+      "aliases": [
+        "vigile"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Un borghese piccolo piccolo",
+      "aliases": [
+        "borghese piccolo piccolo"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Il comune senso del pudore",
+      "aliases": [
+        "comune senso del pudore"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Finché c'è guerra c'è speranza",
+      "aliases": [
+        "finche ce guerra ce speranza"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "La grande guerra",
+      "aliases": [
+        "grande guerra"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Il presidente del Borgorosso Football Club",
+      "aliases": [
+        "borgorosso"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Il malato immaginario",
+      "aliases": [
+        "malato immaginario"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Bello, onesto, emigrato Australia sposerebbe compaesana illibata",
+      "aliases": [
+        "bello onesto emigrato australia"
+      ]
+    }
+  ]
+}

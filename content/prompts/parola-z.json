@@ -1,0 +1,87 @@
+{
+  "id": "parola-z",
+  "family": "lingua",
+  "pattern": "inizia-con",
+  "text": "Una parola italiana che inizia con la Z",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Zucchero"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Zio"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Zebra"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Zaino"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Zero"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Zucca"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Zia"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Zuppa"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Zucchina"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Zampa"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Zattera"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Zanzara"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Zaffiro"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Zabaione",
+      "aliases": [
+        "zabaglione"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Zoccolo"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Zenit"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Zibellino"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Zampogna"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Zuzzurellone"
+    }
+  ]
+}

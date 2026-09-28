@@ -1,0 +1,79 @@
+{
+  "id": "formato-pasta",
+  "family": "cibo",
+  "pattern": "elenco",
+  "text": "Un formato di pasta",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Spaghetti"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Penne"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Fusilli"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Rigatoni"
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Farfalle"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Bucatini"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Orecchiette"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Tortellini"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Lasagne"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Tagliatelle"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Trofie"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Paccheri"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Strozzapreti"
+    },
+    {
+      "tier": "luna",
+      "canonical": "Pappardelle"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Pizzoccheri"
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Fileja"
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Su filindeu",
+      "aliases": [
+        "filindeu"
+      ]
+    }
+  ]
+}

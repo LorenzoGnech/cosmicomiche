@@ -1,0 +1,111 @@
+{
+  "id": "risorgimento",
+  "family": "storia",
+  "pattern": "persona",
+  "text": "Un personaggio del Risorgimento",
+  "answers": [
+    {
+      "tier": "atmosfera",
+      "canonical": "Giuseppe Garibaldi",
+      "aliases": [
+        "garibaldi"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Giuseppe Mazzini",
+      "aliases": [
+        "mazzini"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Camillo Benso di Cavour",
+      "aliases": [
+        "cavour",
+        "camillo cavour"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Vittorio Emanuele II",
+      "aliases": [
+        "vittorio emanuele"
+      ]
+    },
+    {
+      "tier": "atmosfera",
+      "canonical": "Carlo Alberto"
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Anita Garibaldi",
+      "aliases": [
+        "anita"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Nino Bixio",
+      "aliases": [
+        "bixio"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Daniele Manin",
+      "aliases": [
+        "manin"
+      ]
+    },
+    {
+      "tier": "orbita",
+      "canonical": "Goffredo Mameli",
+      "aliases": [
+        "mameli"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Ippolito Nievo",
+      "aliases": [
+        "nievo"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Carlo Pisacane",
+      "aliases": [
+        "pisacane"
+      ]
+    },
+    {
+      "tier": "luna",
+      "canonical": "Silvio Pellico",
+      "aliases": [
+        "pellico"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Aurelio Saffi",
+      "aliases": [
+        "saffi"
+      ]
+    },
+    {
+      "tier": "vuoto",
+      "canonical": "Bettino Ricasoli",
+      "aliases": [
+        "ricasoli"
+      ]
+    },
+    {
+      "tier": "singolarita",
+      "canonical": "Ciceruacchio",
+      "aliases": [
+        "angelo brunetti"
+      ]
+    }
+  ]
+}
