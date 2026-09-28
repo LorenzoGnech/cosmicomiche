@@ -3,8 +3,8 @@ import { normalize } from "../lib/normalize";
 import { applyClock, emptyLocks, playhead, type PlayPhase } from "../lib/playhead";
 import { formatDayLabel } from "../lib/rome";
 import { PROMPT_COUNT, PROMPT_MS, TRANSIT_MS } from "../lib/tiers";
-import type { TierId } from "../lib/types";
-import { drawScene, drawTransit, type SceneId } from "../pixel/scene";
+import { flyShip, markSingularity, mountCollage, placeShip } from "../collage/collage";
+import { reachedFor } from "../collage/route";
 
 const STORAGE = "cosmicomiche-progress";
 
@@ -20,18 +20,16 @@ type Stored = {
 type Mode = "loading" | "empty" | "ready" | "play" | "done" | "error";
 
 const app = document.querySelector<HTMLElement>("#app");
-const canvas = document.querySelector<HTMLCanvasElement>("#scene");
-const ctx = canvas?.getContext("2d") ?? null;
-if (!app || !canvas || !ctx) throw new Error("Manca la pagina");
+const collage = document.querySelector<HTMLElement>("#collage");
+if (!app || !collage) throw new Error("Manca la pagina");
 
-const drawing = ctx;
 let mode: Mode = "loading";
 let date = "";
 let token = "";
 let startedAt = 0;
 let lockedAt: (number | null)[] = emptyLocks();
 let prompts: PromptCard[] = [];
-let transit: { scene: Exclude<SceneId, "flight">; progress: number; singularity: boolean } | null = null;
+let transit: { from: number; to: number; progress: number } | null = null;
 let transitPeekIndex = -1;
 let committed: (string | null)[] = emptyCommitted();
 let peeks: (Peek | null)[] = emptyPeeks();
@@ -43,8 +41,6 @@ let debrief: Debrief | null = null;
 let errorMessage = "";
 let viewKey = "";
 let submitting = false;
-let loop = 0;
-const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function emptyCommitted(): (string | null)[] {
   return Array.from({ length: PROMPT_COUNT }, () => null);
@@ -84,28 +80,35 @@ function save(): void {
   }
 }
 
-function flightForTier(tier: TierId | null): { scene: Exclude<SceneId, "flight">; singularity: boolean } {
-  if (tier === "singolarita") return { scene: "interstellare", singularity: true };
-  if (tier === "vuoto" || tier === "luna" || tier === "orbita") return { scene: tier, singularity: false };
-  return { scene: "atmosfera", singularity: false };
+function lockedPeek(index: number): Peek | null {
+  if (committed[index] == null) return null;
+  return matchingPeek(peeks[index] ?? null, committed[index] ?? "");
 }
 
-function sceneForMode(now: number): { scene: SceneId; singularity: boolean } {
-  if (mode === "done" && debrief) return { scene: debrief.band, singularity: debrief.singularity };
-  return { scene: "flight", singularity: false };
+function totalBefore(index: number): number {
+  let sum = 0;
+  for (let i = 0; i < index; i += 1) sum += lockedPeek(i)?.points ?? 0;
+  return sum;
 }
 
-function paintCanvas(now: number): void {
-  if (mode === "play" && transit) {
-    drawTransit(drawing, transit.scene, transit.progress, now, transit.singularity, reduced);
+function syncShip(): void {
+  if (mode === "done" && debrief) {
+    placeShip(debrief.total);
+    markSingularity(debrief.singularity);
     return;
   }
-  const { scene, singularity } = sceneForMode(now);
-  drawScene(drawing, scene, now, singularity, reduced);
+  if (mode !== "play") {
+    placeShip(0);
+    markSingularity(false);
+    return;
+  }
+  markSingularity(peeks.some((_, index) => lockedPeek(index)?.tier === "singolarita"));
+  if (transit) flyShip(transit.from, transit.to, transit.progress);
+  else placeShip(runningTotal());
 }
 
 function show(html: string): void {
-  app!.innerHTML = html;
+  app!.innerHTML = `<article class="card">${html}</article>`;
 }
 
 async function load(): Promise<void> {
@@ -138,7 +141,8 @@ function applyState(data: DiveState): void {
     show(`
       <p class="date">${escapeHtml(formatDayLabel(data.date))}</p>
       <h1>Cosmicomiche</h1>
-      <p class="rules">Cinque domande, trenta secondi l'una. Vale la risposta giusta che gli altri non scrivono.</p>
+      <p class="kicker">Racconti di viaggio per menti curiose</p>
+      <p class="rules">Cinque domande, trenta secondi l'una. Vale la risposta giusta che gli altri non scrivono: più è rara, più lontano vola il razzo.</p>
       <button type="button" id="start">Inizia la missione</button>
       <p class="fine">Una partita al giorno, mezzanotte di Roma.</p>
     `);
@@ -257,14 +261,16 @@ function tick(): void {
   const applied = applyClock(committed, liveDraft.trim(), draftIndex, startedAt, clock.now, clock.locks);
   committed = applied.committed;
   if (applied.phase.phase === "gap") {
-    const answer = committed[applied.phase.index] ?? "";
-    const known = matchingPeek(peeks[applied.phase.index] ?? null, answer);
-    const flight = flightForTier(known?.tier ?? null);
+    const index = applied.phase.index;
+    const answer = committed[index] ?? "";
+    const known = matchingPeek(peeks[index] ?? null, answer);
+    const from = totalBefore(index);
     transit = {
-      ...flight,
+      from,
+      to: from + (known?.points ?? 0),
       progress: 1 - applied.phase.remainingMs / TRANSIT_MS,
     };
-    if (!known) ensureTransitPeek(applied.phase.index, answer);
+    if (!known) ensureTransitPeek(index, answer);
   } else if (applied.phase.phase === "prompt") {
     transit = null;
   }
@@ -317,17 +323,13 @@ function renderPreview(index: number): void {
 }
 
 function runningTotal(): number {
-  return peeks.reduce((sum, peek, index) => {
-    if (committed[index] == null) return sum;
-    const match = matchingPeek(peek ?? null, committed[index] ?? "");
-    return sum + (match?.points ?? 0);
-  }, 0);
+  return totalBefore(PROMPT_COUNT);
 }
 
 function totalMarkup(): string {
   const total = runningTotal();
-  if (total === 0) return "";
-  return `<p class="score">${total}</p>`;
+  return `<p class="score"><span class="score-label">Totale</span> ${total}</p>
+    <p class="rules">Tappa: ${escapeHtml(reachedFor(total).label)}</p>`;
 }
 
 function ensureTransitPeek(index: number, answer: string): void {
@@ -479,10 +481,13 @@ function paintPlay(phase: PlayPhase): void {
   if (key !== viewKey) {
     viewKey = key;
     const transitPeek = view.transit ? matchingPeek(peeks[view.index] ?? null, committed[view.index] ?? "") : null;
-    if (view.transit) {
-      show(`
+    const header = `<header class="card-head">
         <p class="date">${escapeHtml(formatDayLabel(date))}</p>
         <p class="progress">Domanda ${view.index + 1} / ${PROMPT_COUNT}</p>
+      </header>`;
+    if (view.transit) {
+      show(`
+        ${header}
         <p class="prompt">${escapeHtml(prompt?.text ?? "")}</p>
         <p class="locked">${escapeHtml(committed[view.index]?.trim() || "—")}</p>
         ${transitPeek ? peekMarkup(transitPeek, committed[view.index] ?? "") : ""}
@@ -490,10 +495,9 @@ function paintPlay(phase: PlayPhase): void {
       `);
     } else {
       show(`
-        <p class="date">${escapeHtml(formatDayLabel(date))}</p>
-        <p class="progress">Domanda ${view.index + 1} / ${PROMPT_COUNT}</p>
-        <p class="prompt">${escapeHtml(prompt?.text ?? "")}</p>
+        ${header}
         <p class="timer${warn ? " warn" : ""}" data-timer>${view.seconds}</p>
+        <p class="prompt">${escapeHtml(prompt?.text ?? "")}</p>
         <div class="meter${warn ? " warn" : ""}" aria-hidden="true"><span data-bar></span></div>
         <form>
           <label class="sr" for="answer">Risposta</label>
@@ -616,16 +620,11 @@ function fail(message: string, retry?: () => void): void {
   if (retry) document.querySelector("#retry")?.addEventListener("click", retry);
 }
 
-function frame(now: number): void {
-  if (mode === "play") tick();
-  paintCanvas(now);
-  loop = requestAnimationFrame(frame);
-}
+mountCollage(collage);
 
 window.setInterval(() => {
   if (mode === "play") tick();
-}, 250);
+  syncShip();
+}, 100);
 
 void load();
-loop = requestAnimationFrame(frame);
-void loop;

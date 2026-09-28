@@ -48,7 +48,8 @@ describe("content bank", () => {
     const client = [
       readFileSync("src/scripts/game.ts", "utf8"),
       readFileSync("src/pages/index.astro", "utf8"),
-      readFileSync("src/pixel/scene.ts", "utf8"),
+      readFileSync("src/collage/collage.ts", "utf8"),
+      readFileSync("src/collage/route.ts", "utf8"),
     ].join("\n");
     expect(client.includes("loadPrompts")).toBe(false);
     expect(client.includes("content/prompts")).toBe(false);

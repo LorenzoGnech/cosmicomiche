@@ -1,0 +1,16 @@
+Placeholder cutouts, downloaded as 500px thumbnails from Wikimedia Commons.
+All are NASA public-domain works except mars.jpg, which is credited below.
+
+earth.jpg    https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg
+moon.jpg     https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg
+mars.jpg     https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg  (ESA/MPS, CC BY-SA 3.0 IGO)
+jupiter.jpg  https://commons.wikimedia.org/wiki/File:Jupiter_and_its_shrunken_Great_Red_Spot.jpg
+saturn.jpg   https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg
+uranus.jpg   https://commons.wikimedia.org/wiki/File:Uranus2.jpg
+neptune.jpg  https://commons.wikimedia.org/wiki/File:Neptune_Full.jpg
+pluto.jpg    https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg
+
+rocket.svg   drawn for this project.
+
+Replace any file with a magazine scan of the same name; src/collage/route.ts
+references cutouts by filename only.
